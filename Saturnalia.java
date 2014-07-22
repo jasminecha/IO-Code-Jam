@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Saturnalia {
-
 	public static void main(String[] args) throws FileNotFoundException {
 		File file = new File("A-small-attempt0.in");
 
