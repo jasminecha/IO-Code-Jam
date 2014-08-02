@@ -17,10 +17,13 @@ public class SeatingChart {
 
 		int possibleCombo = 0;
 		for (int i = 0; i < array.size(); i++) {
+			possibleCombo++;
 			String ara = array.get(i);
 			int n = Integer.parseInt(ara.substring(0, ara.indexOf(" ")));
 			ara = ara.substring(ara.indexOf(" "));
-			int k = Integer.parseInt(ara.substring(0, ara.indexOf(" 
+			int k = Integer.parseInt(ara.substring(0, ara.indexOf(" ")));
+			System.out.println("Case #" + (i + 1) + ": " + possibleCombo);
+			System.out.println("| " + n + ", " + k + " |");
 		}
 	}
 }
