@@ -20,8 +20,7 @@ public class SeatingChart {
 			String ara = array.get(i);
 			int n = Integer.parseInt(ara.substring(0, ara.indexOf(" ")));
 			ara = ara.substring(ara.indexOf(" "));
-			int k = Integer.parseInt(ara.substring(0, ara.indexOf(" ")));
-			System.out.println("Case #" + (i + 1) + ": " + po
+			int k = Integer.parseInt(ara.substring(0, ara.indexOf(" 
 		}
 	}
 }
